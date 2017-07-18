@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.volleytut.LoginRegisExample.RegisterActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter username"
+        android:id="@+id/username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        android:id="@+id/email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="enter password"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="retype password"
+        android:layout_height="wrap_content"
+        android:id="@+id/retype_password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register"/>
+</LinearLayout>
